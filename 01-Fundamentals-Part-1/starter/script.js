@@ -314,16 +314,20 @@ console.log(typeof null)  // bug in javascript */
 
 // Conditional (ternary) Operator
 
-// let age = 21
-// // age >= 21 ?console.log('I can drink wine 🍷') :
-// //   console.log('I like to drink water 💦')
+let age = 21
+// age >= 21 ?console.log('I can drink wine 🍷') :
+//   console.log('I like to drink water 💦')
 
-// let drink = age >= 21 ? 'wine' : 'water'
-// console.log(drink)         // same as if/else statement below
+let drink = age >= 21 ? 'wine' : 'water'
+console.log(drink)         // same as if/else statement below
 
 // let drink2;
 //  if (age >= 21) {
-//     drink2 = 'wine'
+//     drink2 = 'wine'console.log(hasThreeVowels('delicious'));       //  true
+// console.log(hasThreeVowels('bootcamp prep'));   //  true
+// console.log(hasThreeVowels('bootcamp'));        //  false
+// console.log(hasThreeVowels('dog'));             //  false
+// console.log(hasThreeVowels('go home'));         //  false
 //  } else {
 //     drink2 = 'water'
 //  }
