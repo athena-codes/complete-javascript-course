@@ -127,5 +127,118 @@
 
 
 
-// Array Methods
+// Objects
 
+// let athenaArr = [
+//     'Athena',
+//     'Chiarello',
+//     2022 - 2000,
+//     'student',
+//     ["leo", "toby"]
+// ]
+
+// let athenaObj = {}
+
+// athenaObj["firstName"] = athenaArr[0]
+// athenaObj["lastName"] = athenaArr[1]
+// athenaObj["age"] = athenaArr[2]
+// athenaObj["job"] = athenaArr[3]
+// athenaObj["pets"] = athenaArr[4]
+
+
+
+//  console.log(athenaObj)
+
+
+// let Athena = {
+//     firstName: 'Athena',
+//      lastName: 'Chiarello',
+//      age: 22,
+//      job: 'student',
+//      pets: ["leo", "toby"] }
+
+//      console.log(Athena.lastName)
+//      console.log(Athena["age"])
+
+//     //  const nameKey = "Name"
+//     //  console.log(Athena["first" + nameKey])   // "firstName"
+//     //  console.log(Athena["last" + nameKey])   // "lastName"
+
+//      let fullName = Athena.firstName + " " + Athena.lastName
+//      console.log(fullName)
+//     //  Athena["fullName"] = fullName
+//     //  Athena.fullName = fullName
+//     Athena.location = "USA"           // assign new key value pair to obj
+//      console.log(Athena)
+
+//     // let interestedIn = prompt('What do you want to know about Athena? Choose between firstName, lastName, age, job and pets')
+
+//     // if(Athena[interestedIn]) {
+//     //   console.log(Athena[interestedIn])
+//     // } else {
+//     //     console.log("Not a valid option!")
+//     // }
+
+
+//     // Challenge
+//      console.log(`${Athena.firstName} has ${Athena.pets.length} pets, and her favorite pet is ${Athena.pets[0]}`)
+
+// let Athena = {
+//     firstName: 'Athena',
+//      lastName: 'Chiarello',
+//      gender: 'female',
+//      birthYear: 2000,
+//      job: 'student',
+//      pets: ["Leo", "Tobi"],
+//     //  age: (birthYear) => {
+//     //     return 2022 - birthYear
+//     //  }
+//     // age: function() {
+//     //     // console.log(this)
+//     //     return 2022 - this.birthYear
+//     // }
+//     calcAge: function () {
+//         this.age = 2022 - this.birthYear
+//         return this.age
+//     }
+// }
+//     console.log(Athena.calcAge())
+//     console.log(Athena)
+//     console.log(Athena.age)
+//     // console.log(Athena.age(Athena.birthYear))    // dot notation
+//     // console.log(Athena['age'](Athena['birthYear']))  // bracket notation
+
+//  let getSummary = (obj) => {
+
+//     return `${obj.firstName} ${obj.lastName} is a ${obj.age} year old ${obj.gender} who is a ${obj.job},
+//     and has ${obj.pets.length} pets named ${obj.pets[0]} and ${obj.pets[1]}`
+//  }
+
+//  console.log(getSummary(Athena))
+
+
+
+
+// Iteration: the For loop
+
+// for(let rep = 1; rep <= 10; rep++) {
+//     console.log(`Lifting weights repetition ${rep}`)
+// }
+
+// let athenaArr = [
+//     'Athena',
+//     'Chiarello',
+//     2022 - 2000,
+//     'student',
+//     ["leo", "toby"]
+// ]
+
+// let printEles = (arr) => {
+//   for(let i = 0; i < arr.length; i++) {
+//     let ele = arr[i]
+//     console.log(ele, typeof ele)
+//   }
+// }
+
+// athenaArr.push("USA")
+// printEles(athenaArr)
